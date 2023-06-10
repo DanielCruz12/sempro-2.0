@@ -12,12 +12,12 @@ const Navbar: FC = () => {
 						<img
 							src="/img/logo-sempro.png"
 							alt="sempro"
-							className="w-[10rem] p-2"
+							className="md:w-[16rem] w-[6rem] p-2"
 						/>
 						<div className="md:hidden">
 							<button
 								type="button"
-								className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700:focus:ring-offset-gray-800"
+								className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm  dark:border-gray-700:focus:ring-offset-gray-800"
 								data-hs-collapse="#navbar-collapse-with-animation"
 								aria-controls="navbar-collapse-with-animation"
 								aria-label="Toggle navigation"

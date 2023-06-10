@@ -17,15 +17,15 @@ const Hero: FC = () => {
 					</div>
 
 					<div className="mt-10 relative max-w-5xl mx-auto">
-						<div className="w-full object-cover h-96 sm:h-[480px] bg-no-repeat bg-center bg-cover rounded-xl">
-							<video autoPlay muted loop>
+						<div className="w-full object-cover h-96 sm:h-[480px] bg-no-repeat bg-center bg-cover">
+							<video autoPlay muted loop className="rounded-2xl">
 								<source src={video1} type="video/mp4" />
 							</video>
 						</div>
-						{/* <div className="absolute inset-0 w-full h-full">
+						<div className="absolute inset-0 w-full h-full">
 							<div className="flex flex-col justify-center items-center w-full h-full">
 								<a
-									className="inline-flex justify-center items-center gap-x-1.5 text-center text-sm bg-white text-gray-800 hover:text-gray-600 rounded-full transition focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:bg-black dark:text-gray-200 dark:hover:text-gray-400 dark:focus:ring-offset-black"
+									className="inline-flex justify-center items-center gap-x-1.5 text-center text-sm bg-white text-gray-800 hover:text-gray-600 rounded-full focus:outline-none focus:ring-2 focus:ring-orange-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 "
 									href="#"
 								>
 									<svg
@@ -41,7 +41,7 @@ const Hero: FC = () => {
 									Play the overview
 								</a>
 							</div>
-						</div> */}
+						</div>
 					</div>
 				</div>
 			</div>
