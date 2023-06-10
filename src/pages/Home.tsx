@@ -9,7 +9,7 @@ import Footer from '../layouts/Footer'
 
 const Home: FC = () => {
 	return (
-		<div className="bg-[rgb(36,36,36)] text-white h-screen overflow-auto z-0 scroll-smooth">
+		<div className="bg-white text-black h-screen overflow-auto z-0 scroll-smooth">
 			<section id="navbar">
 				<Navbar />
 			</section>

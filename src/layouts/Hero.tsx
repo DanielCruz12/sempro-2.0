@@ -1,14 +1,15 @@
 import { FC } from 'react'
+import video1 from '../assets/videos/welding.mp4'
 
 const Hero: FC = () => {
 	return (
 		<div>
 			<div className="relative overflow-hidden">
 				<div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
-					<div className="max-w-2xl text-center mx-auto">
-						<h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl dark:text-white">
+					<div className="max-w-4xl text-center mx-auto">
+						<h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl">
 							Servicios profesionales y montajes{' '}
-							<span className="text-blue-600">especiales</span>
+							<span className="text-orange-500">especiales</span>
 						</h1>
 						<p className="mt-3 text-lg text-gray-800 dark:text-gray-400">
 							Bienvenido, puedes ver los diferentes trabajos realizados
@@ -16,9 +17,12 @@ const Hero: FC = () => {
 					</div>
 
 					<div className="mt-10 relative max-w-5xl mx-auto">
-						<div className="w-full object-cover h-96 sm:h-[480px] bg-[url('https://images.unsplash.com/photo-1606868306217-dbf5046868d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1981&q=80')] bg-no-repeat bg-center bg-cover rounded-xl"></div>
-
-						<div className="absolute inset-0 w-full h-full">
+						<div className="w-full object-cover h-96 sm:h-[480px] bg-no-repeat bg-center bg-cover rounded-xl">
+							<video autoPlay muted loop>
+								<source src={video1} type="video/mp4" />
+							</video>
+						</div>
+						{/* <div className="absolute inset-0 w-full h-full">
 							<div className="flex flex-col justify-center items-center w-full h-full">
 								<a
 									className="inline-flex justify-center items-center gap-x-1.5 text-center text-sm bg-white text-gray-800 hover:text-gray-600 rounded-full transition focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:bg-black dark:text-gray-200 dark:hover:text-gray-400 dark:focus:ring-offset-black"
@@ -37,15 +41,7 @@ const Hero: FC = () => {
 									Play the overview
 								</a>
 							</div>
-						</div>
-
-						<div className="absolute bottom-12 -left-20 -z-[1] w-48 h-48 bg-gradient-to-b from-orange-500 to-white p-px rounded-lg dark:to-slate-900">
-							<div className="bg-white w-48 h-48 rounded-lg dark:bg-slate-900"></div>
-						</div>
-
-						<div className="absolute -top-12 -right-20 -z-[1] w-48 h-48 bg-gradient-to-t from-blue-600 to-cyan-400 p-px rounded-full">
-							<div className="bg-white w-48 h-48 rounded-full dark:bg-slate-900"></div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>
