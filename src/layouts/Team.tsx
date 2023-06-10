@@ -79,8 +79,6 @@ const Team: FC = () => {
 						</a>
 					</div>
 				</div>
-
-			
 			</div>
 		</div>
 	)
