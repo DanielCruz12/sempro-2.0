@@ -5,18 +5,18 @@ const Hero: FC = () => {
 	return (
 		<div>
 			<div className="relative overflow-hidden">
-				<div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
+				<div className="w-full mx-auto px-4 sm:px-6 lg:px-8 py-10">
 					<div className="max-w-4xl text-center mx-auto">
-						<h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl">
+						<h1 className="block text-3xl font-semibold text-gray-800 sm:text-4xl md:text-5xl">
 							Servicios profesionales y montajes{' '}
 							<span className="text-orange-500">especiales</span>
 						</h1>
-						<p className="mt-3 text-lg text-gray-800 dark:text-gray-400">
+						<p className="mt-3 text-lg text-gray-600 ">
 							Bienvenido, puedes ver los diferentes trabajos realizados
 						</p>
 					</div>
 
-					<div className="mt-10 relative max-w-5xl mx-auto">
+					<div className="mt-10 relative max-w-7xl mx-auto">
 						<div className="w-full object-cover h-96 sm:h-[480px] bg-no-repeat bg-center bg-cover">
 							<video autoPlay muted loop className="rounded-2xl">
 								<source src={video1} type="video/mp4" />
