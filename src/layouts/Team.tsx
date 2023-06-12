@@ -4,14 +4,14 @@ const Team: FC = () => {
 	return (
 		<div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
 			<div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-				<h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
-					Our leadership
+				<h2 className="text-2xl font-bold md:text-4xl md:leading-tight">
+					Nuestro equipo
 				</h2>
-				<p className="mt-1 text-gray-600 dark:text-gray-400">Creative people</p>
+				<p className="mt-1 text-gray-600 dark:text-gray-400">Equipo</p>
 			</div>
 
-			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-				<div className="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-gray-200 dark:bg-slate-900 dark:border-gray-700">
+			<div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+				<div className="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-gray-500 ">
 					<div className="flex items-center gap-x-4">
 						<img
 							className="rounded-full w-20 h-20"
@@ -19,9 +19,7 @@ const Team: FC = () => {
 							alt="Image Description"
 						/>
 						<div className="grow">
-							<h3 className="font-medium text-gray-800 dark:text-gray-200">
-								David Forren
-							</h3>
+							<h3 className="font-medium text-gray-800 ">David Forren</h3>
 							<p className="text-xs uppercase text-gray-500">Founder / CEO</p>
 						</div>
 					</div>

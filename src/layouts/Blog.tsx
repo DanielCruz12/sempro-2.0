@@ -4,8 +4,8 @@ import img2 from '/img/soldador.jpeg'
 import styles from '../styles/style'
 const Blog: FC = () => {
 	return (
-		<div>
-			<div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+		<>
+			<div className={`${styles.divSection}`}>
 				<div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
 					<h2 className={`${styles.titleSection}`}>
 						Nuestros <span className="text-orange-500">proyectos</span>
@@ -16,7 +16,6 @@ const Blog: FC = () => {
 						Conoce de cerca el trabajo que realizamos desde 2010
 					</p>
 				</div>
-
 				<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
 					<a className="group rounded-xl overflow-hidden" href="#">
 						<div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
@@ -112,7 +111,7 @@ const Blog: FC = () => {
 					</a>
 				</div>
 			</div>
-		</div>
+		</>
 	)
 }
 

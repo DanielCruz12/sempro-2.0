@@ -6,26 +6,26 @@ const Footer: FC = () => {
 			<div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 mb-10">
 				<div className="col-span-full hidden lg:col-span-1 lg:block">
 					<a
-						className="flex-none text-xl font-semibold dark:text-white"
+						className="flex-none text-xl font-semibold "
 						href="#"
 						aria-label="Brand"
 					>
 						Brand
 					</a>
-					<p className="mt-3 text-xs sm:text-sm text-gray-600 dark:text-gray-400">
+					<p className="mt-3 text-xs sm:text-sm text-gray-600 ">
 						© 2022 Preline.
 					</p>
 				</div>
 
 				<div>
-					<h4 className="text-xs font-semibold text-gray-900 uppercase dark:text-gray-100">
+					<h4 className="text-xs font-semibold text-gray-900 uppercase ">
 						Product
 					</h4>
 
 					<div className="mt-3 grid space-y-3 text-sm">
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Pricing
@@ -33,7 +33,7 @@ const Footer: FC = () => {
 						</p>
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Changelog
@@ -41,7 +41,7 @@ const Footer: FC = () => {
 						</p>
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Docs
@@ -49,7 +49,7 @@ const Footer: FC = () => {
 						</p>
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Download
@@ -59,14 +59,14 @@ const Footer: FC = () => {
 				</div>
 
 				<div>
-					<h4 className="text-xs font-semibold text-gray-900 uppercase dark:text-gray-100">
+					<h4 className="text-xs font-semibold text-gray-900 uppercase ">
 						Company
 					</h4>
 
 					<div className="mt-3 grid space-y-3 text-sm">
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								About us
@@ -74,7 +74,7 @@ const Footer: FC = () => {
 						</p>
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Blog
@@ -82,7 +82,7 @@ const Footer: FC = () => {
 						</p>
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Careers
@@ -93,7 +93,7 @@ const Footer: FC = () => {
 						</p>
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Customers
@@ -101,7 +101,7 @@ const Footer: FC = () => {
 						</p>
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Newsroom
@@ -109,7 +109,7 @@ const Footer: FC = () => {
 						</p>
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Sitemap
@@ -119,14 +119,14 @@ const Footer: FC = () => {
 				</div>
 
 				<div>
-					<h4 className="text-xs font-semibold text-gray-900 uppercase dark:text-gray-100">
+					<h4 className="text-xs font-semibold text-gray-900 uppercase ">
 						Resources
 					</h4>
 
 					<div className="mt-3 grid space-y-3 text-sm">
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Community
@@ -134,7 +134,7 @@ const Footer: FC = () => {
 						</p>
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Help & Support
@@ -142,7 +142,7 @@ const Footer: FC = () => {
 						</p>
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								eBook
@@ -150,7 +150,7 @@ const Footer: FC = () => {
 						</p>
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Whats New
@@ -158,7 +158,7 @@ const Footer: FC = () => {
 						</p>
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Status
@@ -168,14 +168,14 @@ const Footer: FC = () => {
 				</div>
 
 				<div>
-					<h4 className="text-xs font-semibold text-gray-900 uppercase dark:text-gray-100">
+					<h4 className="text-xs font-semibold text-gray-900 uppercase ">
 						Developers
 					</h4>
 
 					<div className="mt-3 grid space-y-3 text-sm">
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Api
@@ -183,7 +183,7 @@ const Footer: FC = () => {
 						</p>
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Status
@@ -191,7 +191,7 @@ const Footer: FC = () => {
 						</p>
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								GitHub
@@ -202,14 +202,14 @@ const Footer: FC = () => {
 						</p>
 					</div>
 
-					<h4 className="mt-7 text-xs font-semibold text-gray-900 uppercase dark:text-gray-100">
+					<h4 className="mt-7 text-xs font-semibold text-gray-900 uppercase ">
 						Industries
 					</h4>
 
 					<div className="mt-3 grid space-y-3 text-sm">
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Financial Services
@@ -217,7 +217,7 @@ const Footer: FC = () => {
 						</p>
 						<p>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Education
@@ -232,19 +232,19 @@ const Footer: FC = () => {
 					<div className="flex items-center gap-x-3">
 						<div className="space-x-4 text-sm ml-4">
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Terms
 							</a>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Privacy
 							</a>
 							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
 								Status
@@ -261,7 +261,7 @@ const Footer: FC = () => {
 							>
 								Brand
 							</a>
-							<p className="mt-1 text-xs sm:text-sm text-gray-600 dark:text-gray-400">
+							<p className="mt-1 text-xs sm:text-sm text-gray-600 ">
 								© 2022 Preline.
 							</p>
 						</div>
