@@ -3,7 +3,7 @@ import video1 from '../assets/videos/welding.mp4'
 
 const Hero: FC = () => {
 	return (
-		<div>
+		<>
 			<div className="relative overflow-hidden">
 				<div className="w-full mx-auto px-4 sm:px-6 lg:px-8 py-10">
 					<div className="max-w-4xl text-center mx-auto">
@@ -16,7 +16,7 @@ const Hero: FC = () => {
 						</p>
 					</div>
 
-					<div className="mt-10 relative max-w-7xl mx-auto">
+					<div className="mt-10 relative w-7xl mx-auto">
 						<div className="w-full object-cover h-96 sm:h-[480px] bg-no-repeat bg-center bg-cover">
 							<video autoPlay muted loop className="rounded-2xl">
 								<source src={video1} type="video/mp4" />
@@ -45,7 +45,7 @@ const Hero: FC = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</>
 	)
 }
 
