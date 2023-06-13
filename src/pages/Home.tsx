@@ -24,14 +24,14 @@ const Home: FC = () => {
 				<section id="about">
 					<About />
 				</section>
-
-				<section id="blog">
-					<Blog />
-				</section>
-
+				
 				<section id="team">
 					<Team />
 				</section>
+
+					<section id="blog">
+						<Blog />
+					</section>
 
 				<section id="pricing">
 					<Pricing />

@@ -1,16 +1,26 @@
 import { FC } from 'react'
 import video1 from '../assets/videos/welding.mp4'
+import { TypeAnimation } from 'react-type-animation'
 
 const Hero: FC = () => {
+
 	return (
 		<>
 			<div className="relative overflow-hidden">
 				<div className="w-full mx-auto px-4 sm:px-6 lg:px-8 py-10">
-					<div className="max-w-4xl text-center mx-auto">
-						<h1 className="block text-3xl font-semibold text-gray-800 sm:text-4xl md:text-5xl">
-							Servicios profesionales y montajes{' '}
-							<span className="text-orange-500">especiales</span>
-						</h1>
+					<div className="max-w-4xl text-center mx-auto h-32">
+						<TypeAnimation
+							preRenderFirstString={true}
+							sequence={[
+								'Servicios especiales y montajes profesionales',
+								1000,
+								'Servicios especiales ',
+								2000
+							]}
+							className="block text-3xl font-semibold text-gray-800 sm:text-4xl md:text-5xl"
+							speed={40}
+							repeat={Infinity}
+							/>
 						<p className="mt-3 text-lg text-gray-600 ">
 							Bienvenido, puedes ver los diferentes trabajos realizados
 						</p>
