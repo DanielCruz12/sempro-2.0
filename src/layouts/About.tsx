@@ -21,13 +21,13 @@ const About: FC = () => {
 								Conócenos...
 							</h3>
 							<p className="mt-3  text-gray-800 ">
-								SEMPRO, es una empresa que a través del tiempo está
-								caracterizada por su calidad con el cumplimiento de sus
-								obligaciones en todas las obras que ha realizado. Ofrece sus
-								servicios a la empresa privada, se especializa de manera
-								integral en la fabricación, transportación e instalación para la
-								industria textil, industria alimenticia y industria del
-								plástico.
+								SEMPRO, es una empresa que a través del tiempo se ha
+								caracterizado por la calidad en el cumplimiento de sus
+								obligaciones en todos los proyectos que ha realizado. SEMPRO
+								trabaja con empresas privadas y públicas. Se especializa de
+								manera integral en la fabricación, transportación e instalación
+								de infraestructuras metálicas para la industria textil,
+								alimenticia e industria del plástico.
 							</p>
 
 							{/* <div className="mt-6 lg:mt-12">
