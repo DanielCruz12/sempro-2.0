@@ -5,13 +5,13 @@ import styles from '../styles/style'
 const About: FC = () => {
 	return (
 		<div className={`${styles.divSection} mt-20`}>
-			<h3 className={`text-3xl md:text-4xl text-center`}>
+			<h3 className={`text-3xl md:text-4xl text-center font-bold`}>
 				Acerca de <span className="text-orange-500">nosotros</span>
 			</h3>
 			<p className="mt-1 text-gray-600 text-center ">
 				{/* A lo largo de los años hemos adquirido expericiencia y realizado una
 						diversidad de proyectos */}
-				Conoce de cerca el trabajo que realizamos desde 2010
+				Toda la trayectoria desde hace varios años
 			</p>
 			<div className="space-y-10 px-0 md:px-10">
 				<div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
