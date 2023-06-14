@@ -1,18 +1,22 @@
 /* import { AiOutlineUsergroupAdd } from 'react-icons/ai'
- */import { FC } from 'react'
+ */
 import img1 from '/img/cat.jpg'
 import img2 from '/img/soldador.jpeg'
 import img4 from '/img/2.jpg'
 import img5 from '/img/nueva.jpg'
 import styles from '../styles/style'
+import Test from './Test'
 /* import { Button } from '../components/Button'
  */
-const Blog: FC = () => {
-/* 	const sayHello = () => {
+
+const Blog = () => {
+	/* 	const sayHello = () => {
 		return alert('Hello')
 	} */
+
 	return (
 		<>
+<Test name='sera posible mj' id={1}/>
 			<div className={`${styles.divSection}`}>
 				<div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
 					<h2 className={`${styles.titleSection}`}>
@@ -30,7 +34,6 @@ const Blog: FC = () => {
 						icon={AiOutlineUsergroupAdd}
 					>
 					</Button> */}
-						
 				</div>
 				<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
 					<a className="group rounded-xl overflow-hidden" href="#">

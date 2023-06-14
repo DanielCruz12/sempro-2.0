@@ -2,9 +2,9 @@ import React, { FC, MouseEventHandler } from 'react'
 
 export interface ButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
 	isLoading?: boolean
-	message: string
-	classCss: string
-	icon: FC<{ className: string }>
+	message: string,
+    classCss: string
+	icon: FC<{ className?: string }>
 	action: MouseEventHandler<HTMLButtonElement>
 }
 
@@ -19,7 +19,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 				{...props}
 				ref={ref}
 			>
-				<Icon className="text-red-400" />
+				<Icon className="text-white"/>
 				<span>{message}</span>
 			</button>
 		)
