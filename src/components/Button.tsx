@@ -1,12 +1,13 @@
 import React, { FC, MouseEventHandler } from 'react'
 
 export interface ButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
-	isLoading?: boolean
-	message: string,
+	isLoading?: boolean 
+	message: string | number,
     classCss: string
 	icon: FC<{ className?: string }>
 	action: MouseEventHandler<HTMLButtonElement>
 }
+
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 	({ action, message, icon: Icon, classCss, isLoading, ...props }, ref) => {

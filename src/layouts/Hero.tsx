@@ -2,13 +2,43 @@ import { FC, useState } from 'react'
 import video1 from '../assets/videos/welding.mp4'
 import { TypeAnimation } from 'react-type-animation'
 import ReactPlayer from 'react-player/youtube'
-
+import SelectForm from '../components/SelectForm'
+import { Form, Formik } from 'formik'
+type ValuesType = {
+	email: string
+	password: string
+}
 const Hero: FC = () => {
 	const [showModal, setShowModal] = useState(false)
+	
+	const docs = [
+		{ email: 'iiiii', password: 'pepe' },
+		{ email: 'sdskdjk', password: 'pepe323' }
+	]
 
+	const handleSelectedChange = () => {
+		console.log('sending data')
+	}
+	const getValues = (values: ValuesType) => {
+		console.log(values)
+	}
 	return (
 		<>
 			<div className="relative overflow-hidden">
+				<Formik
+					initialValues={{ email: '', password: '' }}
+					onSubmit={handleSelectedChange}
+				>
+					<Form>
+						<SelectForm
+							classCss="text-black"
+							name="test"
+							placeH="seleccionar"
+							options={docs}
+							onSelectedChange={getValues}
+						/>
+					</Form>
+				</Formik>
 				<div className="w-full mx-auto px-4 sm:px-6 lg:px-8 py-10">
 					<div className="max-w-4xl text-center mx-auto h-32">
 						<TypeAnimation
@@ -50,7 +80,6 @@ const Hero: FC = () => {
 							<></>
 						)}
 					</>
-
 					<div className="mt-10 relative mx-auto">
 						<div className="w-full object-cover h-96 sm:h-[480px] bg-no-repeat bg-center bg-cover">
 							<video autoPlay muted loop className="rounded-2xl mx-auto">
@@ -78,6 +107,7 @@ const Hero: FC = () => {
 							</div>
 						</div>
 					</div>
+					S
 				</div>
 			</div>
 		</>
