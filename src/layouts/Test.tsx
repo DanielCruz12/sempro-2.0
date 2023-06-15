@@ -1,4 +1,4 @@
-import { FC, useState } from 'react'
+/* import { FC, useState } from 'react'
 import { Iuser, TestProps } from '../types'
 
 const Test: FC<TestProps> = ({ name, id }) => {
@@ -8,7 +8,16 @@ const Test: FC<TestProps> = ({ name, id }) => {
 	const userI: Array<string | number> = ['hiss', 'hello', 1]
 	console.log(userI)
 
-	return <div>{name + user + id}</div>
+	return <div>hi</div>
+}
+
+export default Test
+ */
+
+const Test = () => {
+  return (
+	<div>Test</div>
+  )
 }
 
 export default Test

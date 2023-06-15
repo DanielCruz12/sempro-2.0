@@ -5,7 +5,6 @@ import img2 from '/img/soldador.jpeg'
 import img4 from '/img/2.jpg'
 import img5 from '/img/nueva.jpg'
 import styles from '../styles/style'
-import Test from './Test'
 /* import { Button } from '../components/Button'
  */
 
@@ -16,7 +15,6 @@ const Blog = () => {
 
 	return (
 		<>
-<Test name='sera posible mj' id={1}/>
 			<div className={`${styles.divSection}`}>
 				<div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
 					<h2 className={`${styles.titleSection}`}>

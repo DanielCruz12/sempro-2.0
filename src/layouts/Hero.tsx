@@ -39,6 +39,7 @@ const Hero: FC = () => {
 											Cerrar
 										</button>
 										<ReactPlayer
+											width="90vw"
 											url="https://www.youtube.com/watch?v=wQrN_JNxBDQ"
 											controls
 										/>
