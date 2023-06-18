@@ -1,17 +1,17 @@
-import { AiOutlineUsergroupAdd } from 'react-icons/ai'
- 
+/* import { AiOutlineUsergroupAdd } from 'react-icons/ai'
+ */
 import img1 from '/img/cat.jpg'
 import img2 from '/img/soldador.jpeg'
 import img4 from '/img/2.jpg'
 import img5 from '/img/nueva.jpg'
 import styles from '../styles/style'
- import { Button } from '../components/Button'
- 
+/*  import { Button } from '../components/Button'
+ */
 
 const Blog = () => {
-	 	const sayHello = () => {
+	/* 	 	const sayHello = () => {
 		return alert('Hello')
-	} 
+	}  */
 
 	return (
 		<>
@@ -25,13 +25,13 @@ const Blog = () => {
 						diversidad de proyectos */}
 						Conoce de cerca el trabajo que realizamos desde 2010
 					</p>
-					 <Button
+					{/* 	 <Button
 						message="Aceptar"
 						classCss="bg-sky-500 hover:bg-sky-700 text-white rounded-full w-36"
 						action={sayHello}
 						icon={AiOutlineUsergroupAdd}
 					>
-					</Button>
+					</Button> */}
 				</div>
 				<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
 					<a className="group rounded-xl overflow-hidden" href="#">

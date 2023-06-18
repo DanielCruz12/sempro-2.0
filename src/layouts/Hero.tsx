@@ -2,44 +2,58 @@ import { FC, useState } from 'react'
 import video1 from '../assets/videos/welding.mp4'
 import { TypeAnimation } from 'react-type-animation'
 import ReactPlayer from 'react-player/youtube'
-import SelectForm from '../components/SelectForm'
-import { Form, Formik } from 'formik'
-type ValuesType = {
-	email: string
-	password: string
-}
+/* import SelectForm from '../components/SelectForm'
+import { Field, Form, Formik } from 'formik'
+import { OptionType, ValuesToSend } from '../types'
+ */
 const Hero: FC = () => {
-	const [showModal, setShowModal] = useState(false)
-	
-	const docs = [
-		{ email: 'iiiii', password: 'pepe' },
-		{ email: 'sdskdjk', password: 'pepe323' }
+	const [showModal, setShowModal] = useState<boolean>(false)
+/* 
+	const docs: Array<OptionType> = [
+		{ value: 'iiiii', label: 'pepe' },
+		{ value: 'sdskdjk', label: 'pepe323' }
 	]
 
-	const handleSelectedChange = () => {
-		console.log('sending data')
-	}
-	const getValues = (values: ValuesType) => {
+	const handleSelectedChange = (values: ValuesToSend) => {
 		console.log(values)
 	}
+	const getValues = (values: OptionType[]) => {
+		console.log(values)
+	} */
+
 	return (
 		<>
 			<div className="relative overflow-hidden">
-				<Formik
-					initialValues={{ email: '', password: '' }}
-					onSubmit={handleSelectedChange}
-				>
-					<Form>
-						<SelectForm
-							classCss="text-black"
-							name="test"
-							placeH="seleccionar"
-							options={docs}
-							onSelectedChange={getValues}
-						/>
-					</Form>
-				</Formik>
-				<div className="w-full mx-auto px-4 sm:px-6 lg:px-8 py-10">
+				<div className="w-full mx-auto px-4 sm:px-6">
+					{/* <Formik
+						initialValues={{
+							email: '',
+							password: '',
+							docs: []
+						}}
+						onSubmit={handleSelectedChange}
+					>
+						<Form>
+							<SelectForm
+								classCss="text-black"
+								name="docs"
+								placeH="Seleccionar"
+								options={docs}
+								onSelectedChange={getValues}
+							/>
+							<Field
+								name="email"
+								type="text"
+								placeholder="Ingrese número de documento"
+							/>
+							<Field
+								name="password"
+								type="password"
+								placeholder="Ingrese número de documento"
+							/>
+							<button type="submit">enviar</button>
+						</Form>
+					</Formik> */}
 					<div className="max-w-4xl text-center mx-auto h-32">
 						<TypeAnimation
 							preRenderFirstString={true}
@@ -81,7 +95,7 @@ const Hero: FC = () => {
 						)}
 					</>
 					<div className="mt-10 relative mx-auto">
-						<div className="w-full object-cover h-96 sm:h-[480px] bg-no-repeat bg-center bg-cover">
+						<div className="w-full object-cover bg-no-repeat bg-center bg-cover">
 							<video autoPlay muted loop className="rounded-2xl mx-auto">
 								<source src={video1} type="video/mp4" />
 							</video>
@@ -107,7 +121,7 @@ const Hero: FC = () => {
 							</div>
 						</div>
 					</div>
-					S
+					
 				</div>
 			</div>
 		</>

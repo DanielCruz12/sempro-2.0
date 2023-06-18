@@ -1,14 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { useField } from 'formik'
 import Select from 'react-select'
-type OptionType = {
-	email: string
-	password: string
-}
-interface ValuesType {
-	email: string
-	password: string
-}
+import { OptionType } from '../types'
 
 type FormSelectProps = {
 	name: string
@@ -16,7 +9,7 @@ type FormSelectProps = {
 	options: OptionType[]
 	classCss: string
 	isMultiSelect?: boolean
-	onSelectedChange: (values: ValuesType) => void
+	onSelectedChange: (values: Array<OptionType>) => void
 }
 
 const SelectForm = ({
@@ -34,9 +27,14 @@ const SelectForm = ({
 			className={classCss}
 			{...meta}
 			name={name}
-			onChange={onSelectedChange}
+			onChange={value => {
+				helpers.setValue(value)
+				if (onSelectedChange) onSelectedChange(value)
+			}}
 			value={field.value}
 			placeholder={placeH}
+			onBlur={() => helpers.setTouched(true)}
+			classNamePrefix="react-select"
 		/>
 	)
 }
