@@ -2,58 +2,14 @@ import { FC, useState } from 'react'
 import video1 from '../assets/videos/welding.mp4'
 import { TypeAnimation } from 'react-type-animation'
 import ReactPlayer from 'react-player/youtube'
-/* import SelectForm from '../components/SelectForm'
-import { Field, Form, Formik } from 'formik'
-import { OptionType, ValuesToSend } from '../types'
- */
+
 const Hero: FC = () => {
 	const [showModal, setShowModal] = useState<boolean>(false)
-/* 
-	const docs: Array<OptionType> = [
-		{ value: 'iiiii', label: 'pepe' },
-		{ value: 'sdskdjk', label: 'pepe323' }
-	]
-
-	const handleSelectedChange = (values: ValuesToSend) => {
-		console.log(values)
-	}
-	const getValues = (values: OptionType[]) => {
-		console.log(values)
-	} */
 
 	return (
 		<>
 			<div className="relative overflow-hidden">
 				<div className="w-full mx-auto px-4 sm:px-6">
-					{/* <Formik
-						initialValues={{
-							email: '',
-							password: '',
-							docs: []
-						}}
-						onSubmit={handleSelectedChange}
-					>
-						<Form>
-							<SelectForm
-								classCss="text-black"
-								name="docs"
-								placeH="Seleccionar"
-								options={docs}
-								onSelectedChange={getValues}
-							/>
-							<Field
-								name="email"
-								type="text"
-								placeholder="Ingrese número de documento"
-							/>
-							<Field
-								name="password"
-								type="password"
-								placeholder="Ingrese número de documento"
-							/>
-							<button type="submit">enviar</button>
-						</Form>
-					</Formik> */}
 					<div className="max-w-4xl text-center mx-auto h-32">
 						<TypeAnimation
 							preRenderFirstString={true}
@@ -116,12 +72,11 @@ const Hero: FC = () => {
 									>
 										<path d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" />
 									</svg>
-									Play the overview
+									¡Mira nuestros proyectos!
 								</button>
 							</div>
 						</div>
 					</div>
-					
 				</div>
 			</div>
 		</>
