@@ -12,3 +12,16 @@
 	background-color: #e4861a;
 	border-radius: 40px;
 }
+
+.sizeIcon {
+	width: 1.6rem;
+	height: 1.6rem;
+}
+
+.glass {
+	background: rgba(255, 255, 255, 0.75);
+	box-shadow: 0 8px 100px 0 rgba(0, 0, 0, 0.37);
+	backdrop-filter: blur(7.5px);
+	-webkit-backdrop-filter: blur(7.5px);
+	border-radius: 2%;
+}
