@@ -1,18 +1,10 @@
-/* import { AiOutlineUsergroupAdd } from 'react-icons/ai'
- */
 import img1 from '/img/cat.jpg'
 import img2 from '/img/soldador.jpeg'
 import img4 from '/img/2.jpg'
 import img5 from '/img/nueva.jpg'
 import styles from '../styles/style'
-/*  import { Button } from '../components/Button'
- */
 
 const Blog = () => {
-	/* 	 	const sayHello = () => {
-		return alert('Hello')
-	}  */
-
 	return (
 		<>
 			<div className={`${styles.divSection}`}>
@@ -21,17 +13,8 @@ const Blog = () => {
 						Nuestros <span className="text-orange-500">proyectos</span>
 					</h2>
 					<p className="mt-1 text-gray-600 ">
-						{/* A lo largo de los años hemos adquirido expericiencia y realizado una
-						diversidad de proyectos */}
 						Conoce de cerca el trabajo que realizamos desde 2010
 					</p>
-					{/* 	 <Button
-						message="Aceptar"
-						classCss="bg-sky-500 hover:bg-sky-700 text-white rounded-full w-36"
-						action={sayHello}
-						icon={AiOutlineUsergroupAdd}
-					>
-					</Button> */}
 				</div>
 				<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
 					<a className="group rounded-xl overflow-hidden" href="#">
@@ -42,33 +25,22 @@ const Blog = () => {
 								alt="Image Description"
 							/>
 							<span className="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark:bg-gray-900">
-								11/03/2017
+								02/12/2022
 							</span>
 						</div>
 
 						<div className="mt-7">
 							<h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 ">
-								Studio by Preline
+								Mantenimiento de maquinaria industrial.
 							</h3>
 							<p className="mt-3 text-gray-800 ">
-								Produce professional, reliable streams easily leveraging
-								innovative broadcast studio
+								Servicio de mantenimiento a grandes empresas para una mejor
+								calidad y desempeño en sus servicios.
 							</p>
-							<p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
+							{/* <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
 								Leer más
-								<svg
-									className="w-2.5 h-2.5"
-									width="16"
-									height="16"
-									viewBox="0 0 16 16"
-									fill="none"
-								>
-									<path
-										d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14"
-										stroke="currentColor"
-									/>
-								</svg>
-							</p>
+								<span aria-hidden="true">→</span>
+							</p> */}
 						</div>
 					</a>
 
@@ -80,33 +52,23 @@ const Blog = () => {
 								alt="Image Description"
 							/>
 							<span className="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark:bg-gray-900">
-								11/03/2017
+								11/03/2023
 							</span>
 						</div>
 
 						<div className="mt-7">
 							<h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 ">
-								Onsite
+								Mantenimiento y Reparación de Estructuras Metálicas Soldadas
 							</h3>
 							<p className="mt-3 text-gray-800 ">
-								Optimize your in-person experience with best-in-className
-								capabilities like badge printing and lead retrieval
+								El mantenimiento preventivo y las reparaciones oportunas
+								prolongan la vida útil de las estructuras metálicas soldadas y
+								previenen fallas.
 							</p>
-							<p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-								Read more
-								<svg
-									className="w-2.5 h-2.5"
-									width="16"
-									height="16"
-									viewBox="0 0 16 16"
-									fill="none"
-								>
-									<path
-										d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14"
-										stroke="currentColor"
-									/>
-								</svg>
-							</p>
+							{/* <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
+								Leer más
+								<span aria-hidden="true">→</span>
+							</p> */}
 						</div>
 					</a>
 
@@ -116,13 +78,19 @@ const Blog = () => {
 					>
 						<div className="flex-auto p-4 md:p-6">
 							<h3 className="text-xl text-white group-hover:text-white">
-								<span className="font-bold">Preline</span> Press publishes books
-								about economic and technological advancement.
+								<span className="font-bold">Acero Inoxidable</span> Técnicas y
+								consideraciones especiales para trabajar con este material
+								resistente a la corrosión.
 							</h3>
 						</div>
-						<div className="pt-0 p-4 md:p-6">
+						<div className="pt-0 p-4 md:p-6 z-10">
 							<div className="inline-flex items-center gap-2 text-sm font-medium text-white group-hover:text-white/[.7]">
-								Visit the site
+								<a
+									href="https://forjaferreatienda.com/tecnicas-de-soldadura-descripcion-general/"
+									target="_blank" rel="noreferrer"
+								>
+									Visitar sitio...
+								</a>
 							</div>
 						</div>
 					</a>
@@ -135,13 +103,15 @@ const Blog = () => {
 					>
 						<div className="flex-auto p-4 md:p-6">
 							<h3 className="text-xl text-white group-hover:text-white">
-								<span className="font-bold">Preline</span> Press publishes books
-								about economic and technological advancement.
+								Construccion de estructuras metálicas Soldadas con TIC.
 							</h3>
 						</div>
-						<div className="pt-0 p-4 md:p-6">
+						<div className="pt-0 p-4 md:p-6 z-10">
 							<div className="inline-flex items-center gap-2 text-sm font-medium text-white group-hover:text-white/[.7]">
-								Visit the site
+								<p>
+									Se enfatiza la necesidad de una inspección rigurosa para
+									evitar fallas potenciales.
+								</p>
 							</div>
 						</div>
 					</a>
@@ -153,32 +123,17 @@ const Blog = () => {
 								alt="Image Description"
 							/>
 							<span className="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark:bg-gray-900">
-								11/03/2017
+								10/06/2020
 							</span>
 						</div>
 
 						<div className="mt-7">
 							<h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 ">
-								Studio by Preline
+								Protección en alturas
 							</h3>
 							<p className="mt-3 text-gray-800 ">
-								Produce professional, reliable streams easily leveraging
-								innovative broadcast studio
-							</p>
-							<p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-								Leer más
-								<svg
-									className="w-2.5 h-2.5"
-									width="16"
-									height="16"
-									viewBox="0 0 16 16"
-									fill="none"
-								>
-									<path
-										d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14"
-										stroke="currentColor"
-									/>
-								</svg>
+								Sistemas de líneas de vida para prevenir caídas de trabajos en
+								alturas mediante cables o bandas resistentes.
 							</p>
 						</div>
 					</a>
@@ -191,32 +146,18 @@ const Blog = () => {
 								alt="Image Description"
 							/>
 							<span className="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark:bg-gray-900">
-								11/03/2017
+								11/09/2022
 							</span>
 						</div>
 
 						<div className="mt-7">
 							<h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 ">
-								Onsite
+								Diseño y Cálculo de Uniones Soldadas
 							</h3>
 							<p className="mt-3 text-gray-800 ">
-								Optimize your in-person experience with best-in-className
-								capabilities like badge printing and lead retrieval
-							</p>
-							<p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-								Read more
-								<svg
-									className="w-2.5 h-2.5"
-									width="16"
-									height="16"
-									viewBox="0 0 16 16"
-									fill="none"
-								>
-									<path
-										d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14"
-										stroke="currentColor"
-									/>
-								</svg>
+								El diseño adecuado y el cálculo preciso son fundamentales para
+								asegurar la seguridad y eficiencia de las uniones soldadas en
+								estructuras metálicas.
 							</p>
 						</div>
 					</a>

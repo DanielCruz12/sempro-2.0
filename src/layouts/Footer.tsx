@@ -1,25 +1,20 @@
 import { FC } from 'react'
-
+import logo from '/img/logo-sempro.png'
 const Footer: FC = () => {
 	return (
 		<footer className="w-full py-10 px-4 sm:px-6 lg:px-8 mx-auto">
 			<div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 mb-10">
 				<div className="col-span-full hidden lg:col-span-1 lg:block">
-					<a
-						className="flex-none text-xl font-semibold "
-						href="#"
-						aria-label="Brand"
-					>
-						Brand
-					</a>
+					<img className="w-36" src={logo} alt="sempro" />
+
 					<p className="mt-3 text-xs sm:text-sm text-gray-600 ">
-						© 2022 Preline.
+						© 2023 Sempro S.A de C.V.
 					</p>
 				</div>
 
 				<div>
 					<h4 className="text-xs font-semibold text-gray-900 uppercase ">
-						Product
+						Servicios
 					</h4>
 
 					<div className="mt-3 grid space-y-3 text-sm">
@@ -28,34 +23,7 @@ const Footer: FC = () => {
 								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
-								Pricing
-							</a>
-						</p>
-			
-					</div>
-				</div>
-
-				<div>
-					<h4 className="text-xs font-semibold text-gray-900 uppercase ">
-						Company
-					</h4>
-
-					<div className="mt-3 grid space-y-3 text-sm">
-						<p>
-							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
-								href="#"
-							>
-								About us
-							</a>
-						</p>
-				
-						<p>
-							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
-								href="#"
-							>
-								Customers
+								Soldadura en TIC
 							</a>
 						</p>
 						<p>
@@ -63,42 +31,7 @@ const Footer: FC = () => {
 								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
-								Newsroom
-							</a>
-						</p>
-						
-					</div>
-				</div>
-
-				<div>
-					<h4 className="text-xs font-semibold text-gray-900 uppercase ">
-						Resources
-					</h4>
-
-					<div className="mt-3 grid space-y-3 text-sm">
-						<p>
-							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
-								href="#"
-							>
-								Community
-							</a>
-						</p>
-						
-						<p>
-							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
-								href="#"
-							>
-								Whats New
-							</a>
-						</p>
-						<p>
-							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
-								href="#"
-							>
-								Status
+								Mantenimiento de maquinaria pesada
 							</a>
 						</p>
 					</div>
@@ -106,7 +39,7 @@ const Footer: FC = () => {
 
 				<div>
 					<h4 className="text-xs font-semibold text-gray-900 uppercase ">
-						Developers
+						Empresa
 					</h4>
 
 					<div className="mt-3 grid space-y-3 text-sm">
@@ -115,14 +48,15 @@ const Footer: FC = () => {
 								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
-								Api
+								Acerca de nosotros
 							</a>
 						</p>
-			
 					</div>
+				</div>
 
-					<h4 className="mt-7 text-xs font-semibold text-gray-900 uppercase ">
-						Industries
+				<div>
+					<h4 className="text-xs font-semibold text-gray-900 uppercase ">
+						Contáctanos
 					</h4>
 
 					<div className="mt-3 grid space-y-3 text-sm">
@@ -131,10 +65,26 @@ const Footer: FC = () => {
 								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
-								Financial Services
+								+503 7226-6676
 							</a>
 						</p>
-						
+					</div>
+				</div>
+
+				<div>
+					<h4 className="text-xs font-semibold text-gray-900 uppercase ">
+						¿Quieres formar parte de nuestro equipo?
+					</h4>
+
+					<div className="mt-3 grid space-y-3 text-sm">
+						<p>
+							<a
+								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
+								href="#"
+							>
+								Envia tu solicitud o curriculum
+							</a>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -147,29 +97,16 @@ const Footer: FC = () => {
 								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
 								href="#"
 							>
-								Terms
+								Términos y condiciones
 							</a>
-							<a
-								className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
-								href="#"
-							>
-								Privacy
-							</a>
-							
 						</div>
 					</div>
 
 					<div className="flex justify-between items-center">
 						<div className="mt-3 sm:hidden">
-							<a
-								className="flex-none text-xl font-semibold dark:text-white"
-								href="#"
-								aria-label="Brand"
-							>
-								Brand
-							</a>
+							<img className="w-36" src={logo} alt="sempro" />
 							<p className="mt-1 text-xs sm:text-sm text-gray-600 ">
-								© 2022 Preline.
+								© 2023 Sempro S.A de C.V.
 							</p>
 						</div>
 
