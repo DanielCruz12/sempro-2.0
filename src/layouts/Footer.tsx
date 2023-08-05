@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import logo from '/img/logo-sempro.png'
+import { Link } from 'react-router-dom'
 const Footer: FC = () => {
 	return (
 		<footer className="w-full py-10 px-4 sm:px-6 lg:px-8 mx-auto">
@@ -16,14 +17,14 @@ const Footer: FC = () => {
 					<div className="mt-3 grid space-y-3 text-sm">
 						<a
 							className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
-							href="#"
+							href="#blog"
 						>
 							Soldadura en TIC
 						</a>
 
 						<a
 							className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
-							href="#"
+							href="#blog"
 						>
 							Mantenimiento de maquinaria pesada
 						</a>
@@ -34,11 +35,16 @@ const Footer: FC = () => {
 					<h4 className="text-xs font-semibold text-gray-900 uppercase ">
 						Empresa
 					</h4>
-
+					<a
+						className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
+						href="#team"
+					>
+						Nuestro equipo
+					</a>
 					<div className="mt-3 grid space-y-3 text-sm">
 						<a
 							className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
-							href="#"
+							href="#about"
 						>
 							Acerca de nosotros
 						</a>
@@ -66,12 +72,13 @@ const Footer: FC = () => {
 					</h4>
 
 					<div className="mt-3 grid space-y-3 text-sm">
-						<a
+						<Link
 							className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800  dark:hover:text-gray-200"
-							href="#"
+							to="/form"
 						>
+							{' '}
 							Envia tu solicitud o curriculum
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>

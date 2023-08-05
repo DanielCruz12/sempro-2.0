@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom'
 import logo from '/img/logo-sempro.png'
+
 const Banner = () => {
 	return (
 		<section className="py-8">
@@ -15,12 +17,12 @@ const Banner = () => {
 							<p className="mb-8 md:mb-16 text-sm font-medium text-orange-500">
 								Soldadura Profesional para Proyectos Exitosos
 							</p>
-							<a
-								href="#"
+							<Link
+								to="/form"
 								className="content-center text-center  rounded-full bg-orange-500  px-3.5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
 							>
-								Regístrate ahora<span aria-hidden="true">&rarr;</span>
-							</a>
+								Únete ahora<span aria-hidden="true">&rarr;</span>
+							</Link>
 						</div>
 
 						<div className="w-full md:w-1/2 flex items-center">
