@@ -17,7 +17,7 @@ const Blog = () => {
 					</p>
 				</div>
 				<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-					<a className="group rounded-xl overflow-hidden" href="#">
+					<div className="group rounded-xl overflow-hidden">
 						<div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
 							<img
 								className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
@@ -37,14 +37,10 @@ const Blog = () => {
 								Servicio de mantenimiento a grandes empresas para una mejor
 								calidad y desempeño en sus servicios.
 							</p>
-							{/* <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-								Leer más
-								<span aria-hidden="true">→</span>
-							</p> */}
 						</div>
-					</a>
+					</div>
 
-					<a className="group rounded-xl overflow-hidden" href="#">
+					<div className="group rounded-xl overflow-hidden">
 						<div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
 							<img
 								className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
@@ -70,12 +66,9 @@ const Blog = () => {
 								<span aria-hidden="true">→</span>
 							</p> */}
 						</div>
-					</a>
+					</div>
 
-					<a
-						className="group relative flex flex-col w-full min-h-[15rem] bg-center bg-cover rounded-xl hover:shadow-lg transition bg-[url('https://i.ibb.co/tY0m4YM/chispas2.jpg')]"
-						href="#"
-					>
+					<div className="group relative flex flex-col w-full min-h-[15rem] bg-center bg-cover rounded-xl hover:shadow-lg transition bg-[url('https://i.ibb.co/tY0m4YM/chispas2.jpg')]">
 						<div className="flex-auto p-4 md:p-6">
 							<h3 className="text-xl text-white group-hover:text-white">
 								<span className="font-bold">Acero Inoxidable</span> Técnicas y
@@ -87,20 +80,18 @@ const Blog = () => {
 							<div className="inline-flex items-center gap-2 text-sm font-medium text-white group-hover:text-white/[.7]">
 								<a
 									href="https://forjaferreatienda.com/tecnicas-de-soldadura-descripcion-general/"
-									target="_blank" rel="noreferrer"
+									target="_blank"
+									rel="noreferrer"
 								>
 									Visitar sitio...
 								</a>
 							</div>
 						</div>
-					</a>
+					</div>
 				</div>
 
 				<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-20">
-					<a
-						className="group relative flex flex-col w-full min-h-[15rem] bg-center bg-cover rounded-xl hover:shadow-lg transition bg-[url('https://i.ibb.co/hHqPV1C/escalera.jpg')]"
-						href="#"
-					>
+					<div className="group relative flex flex-col w-full min-h-[15rem] bg-center bg-cover rounded-xl hover:shadow-lg transition bg-[url('https://i.ibb.co/hHqPV1C/escalera.jpg')]">
 						<div className="flex-auto p-4 md:p-6">
 							<h3 className="text-xl text-white group-hover:text-white">
 								Construccion de estructuras metálicas Soldadas con TIC.
@@ -114,8 +105,8 @@ const Blog = () => {
 								</p>
 							</div>
 						</div>
-					</a>
-					<a className="group rounded-xl overflow-hidden" href="#">
+					</div>
+					<div className="group rounded-xl overflow-hidden">
 						<div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
 							<img
 								className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
@@ -136,9 +127,9 @@ const Blog = () => {
 								alturas mediante cables o bandas resistentes.
 							</p>
 						</div>
-					</a>
+					</div>
 
-					<a className="group rounded-xl overflow-hidden" href="#">
+					<div className="group rounded-xl overflow-hidden">
 						<div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
 							<img
 								className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
@@ -160,7 +151,7 @@ const Blog = () => {
 								estructuras metálicas.
 							</p>
 						</div>
-					</a>
+					</div>
 				</div>
 			</div>
 		</>

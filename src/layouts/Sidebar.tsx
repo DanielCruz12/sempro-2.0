@@ -6,9 +6,6 @@ const Sidebar: FC = () => {
 		<div className="fixed top-[30vh] left-5 z-50 ">
 			<ul className="list-none flex flex-col p-0 m-0 gap-3">
 				<li>
-					{/* <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
-						<BsFacebook className="text-white bg-[#3b5998] rounded-full w-6 h-6 leading-30 mt-5 text-center no-underline inline-block transition-all duration-300" />
-					</a> */}
 					<SocialIcon
 						url="https://www.facebook.com"
 						network="facebook"

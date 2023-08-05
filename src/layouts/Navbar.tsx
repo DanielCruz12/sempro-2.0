@@ -15,7 +15,7 @@ const Navbar: FC = () => {
 		<>
 			<div className="relative bg-white ">
 				<div className="max-w-7xl mx-auto px-4 sm:px-6">
-					<div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+					<div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
 						<div className="flex justify-start lg:w-0 lg:flex-1">
 							<img
 								src="/img/logo-sempro.png"
@@ -151,17 +151,26 @@ const Navbar: FC = () => {
 											</h3>
 											<ul className="mt-4 space-y-4">
 												<li className="text-base truncate">
-													<a href="#" className="mt-1 text-sm text-gray-500">
+													<a
+														href="#blog"
+														className="mt-1 text-sm text-gray-500"
+													>
 														Instalación de bobinas en centro de aislamiento.
 													</a>
 												</li>
 												<li className="text-base truncate">
-													<a href="#" className="mt-1 text-sm text-gray-500">
+													<a
+														href="#blog"
+														className="mt-1 text-sm text-gray-500"
+													>
 														Instalación de y montaje de estructura de vigas.
 													</a>
 												</li>
 												<li className="text-base truncate">
-													<a href="#" className="mt-1 text-sm text-gray-500">
+													<a
+														href="#blog"
+														className="mt-1 text-sm text-gray-500"
+													>
 														Capacitación a los nuevos empleados para el buen
 														desempeño de su trabajo.
 													</a>
@@ -170,7 +179,7 @@ const Navbar: FC = () => {
 										</div>
 										<div className="mt-5 text-sm">
 											<a
-												href="#"
+												href="#blog"
 												className="font-medium text-orange-500 hover:text-orange-500"
 											>
 												Ver todos los proyectos
@@ -182,7 +191,7 @@ const Navbar: FC = () => {
 							</div>
 
 							<a
-								href="#"
+								href="#about"
 								className="text-base font-medium text-gray-500 hover:text-gray-900"
 							>
 								Nosotros
@@ -194,7 +203,7 @@ const Navbar: FC = () => {
 								href="#"
 								className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-orange-500 hover:bg-orange-500"
 							>
-								¡Únete! <span aria-hidden="true">&rarr;</span>
+								¡Únete!
 							</a>
 						</div>
 					</div>
@@ -239,7 +248,7 @@ const Navbar: FC = () => {
 										</span>
 									</a>
 									<a
-										href="#"
+										href="#about"
 										className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
 									>
 										<CiUser className="sizeIcon text-orange-500" />
@@ -249,7 +258,7 @@ const Navbar: FC = () => {
 										</span>
 									</a>
 									<a
-										href="#"
+										href="#blog"
 										className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
 									>
 										<TfiPaintBucket className="sizeIcon text-orange-500" />
