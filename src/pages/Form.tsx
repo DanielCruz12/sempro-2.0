@@ -24,13 +24,13 @@ export const FormComponent = () => {
 	return (
 		<div>
 			<div className="min-h-screen bg-gray-100  flex flex-col justify-center ">
-				<Link
-					className=" text-gray-500 md:ml-28 shadow-lg w-36 py-2 px-5 mx-3 rounded"
-					to="/"
-				>
-					<BsArrowLeft /> Regresar
-				</Link>
 				<div className="relative py-3 ">
+					<Link
+						className=" text-gray-500 md:ml-28  shadow-lg w-36 my-10 py-2 px-5 mx-3 rounded"
+						to="/"
+					>
+						<BsArrowLeft /> Regresar
+					</Link>
 					<div className="relative px-4 py-10 bg-white rounded-3xl">
 						<div className="max-w-md mx-auto px-4">
 							<div className="flex items-center space-x-5">
@@ -57,7 +57,7 @@ export const FormComponent = () => {
 													id="name"
 													type="text"
 													name="name"
-													className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+													className="shadow appearance-none border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
 													placeholder="Ingrese su nombre"
 													innerRef={(el: HTMLInputElement | null) => {
 														inputRefs.current[0] = el
@@ -77,7 +77,7 @@ export const FormComponent = () => {
 												<Field
 													type="text"
 													name="description"
-													className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+													className="shadow appearance-none border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
 													placeholder="Ingrese sus datos"
 												/>
 												<ErrorMessage
@@ -97,23 +97,24 @@ export const FormComponent = () => {
 											</div>
 										</Form>
 									</Formik>
+									<div className="pt-5 mt-5  border-gray-200 dark:border-gray-700">
+										<div className="sm:flex sm:justify-center sm:items-center">
+											<div className=" items-center text-center">
+												<div className=" text-sm ml-4">
+													<p className="mt-1 text-xs sm:text-sm text-gray-600 ">
+														©2023 Sempro S.A de C.V. <br /> Términos y
+														condiciones
+													</p>
+												</div>
+											</div>
+										</div>
+										<div className=" flex justify-center text-center items-center">
+											<img className="w-36" src={logo} alt="sempro" />
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div className="pt-5 mt-5  border-gray-200 dark:border-gray-700">
-					<div className="sm:flex sm:justify-center sm:items-center">
-						<div className=" items-center text-center">
-							<div className=" text-sm ml-4">
-								<p className="mt-1 text-xs sm:text-sm text-gray-600 ">
-									©2023 Sempro S.A de C.V. <br /> Términos y condiciones
-								</p>
-							</div>
-						</div>
-					</div>
-					<div className=" flex justify-center text-center items-center">
-						<img className="w-36" src={logo} alt="sempro" />
 					</div>
 				</div>
 			</div>
